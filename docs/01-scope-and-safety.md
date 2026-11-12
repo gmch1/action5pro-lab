@@ -35,6 +35,8 @@ Action5 Pro Lab 只面向 DJI Osmo Action 5 Pro，内部产品代号为 AC204。
 
 不得提交以下内容：
 
+- 聊天记录、模型提示词、系统/开发者指令或工具调用原始输出；
+- 未经整理的终端会话、调试转储和包含环境信息的原始日志；
 - 任何分区镜像、GPT 导出、升级包、loader 或恢复包；
 - EDL 日志中的设备序列号、芯片唯一 ID、USB 路径；
 - `userdata`、`persist`、`cali`、蓝牙/Wi-Fi 配置；
@@ -44,6 +46,9 @@ Action5 Pro Lab 只面向 DJI Osmo Action 5 Pro，内部产品代号为 AC204。
 
 公开文档统一使用 `<DEVICE>`, `<LOCAL_BACKUP>`, `<CAMERA_IP>` 和
 `<LOCAL_FIREHOSE_PROGRAMMER>` 等占位符。
+
+研究过程只应整理为可复现的技术步骤、观察结果和证据边界，不能把生成这些
+结论时的内部对话或控制指令直接复制进仓库。
 
 ## 写入前的停止条件
 
