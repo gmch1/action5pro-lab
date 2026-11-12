@@ -1,0 +1,52 @@
+# Operating-system and Python artifacts
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.edl-venv/
+
+# Third-party tools and locally supplied programmers
+edl-tool/
+loader/
+
+# Device dumps, firmware, partition tables, and recovery packages
+backups/
+dumps/
+firmware/
+img-unlock/
+unlock-kit/
+unlock-runs/
+logs/
+*.img
+*.bin
+*.mbn
+*.elf
+*.raw
+*.dump
+*.zip
+*.7z
+*.tar
+*.tar.*
+rawprogram*.xml
+patch*.xml
+gpt*.xml
+SHA256SUMS
+
+# Device-bound writer: keep locally, never publish with the documentation
+action5_unlock.py
+tests/test_action5_unlock.py
+
+# Credentials and machine-local configuration
+.env
+.env.*
+*credentials*
+*secrets*
+*password*
+*private-key*
+*.pem
+*.key
+wpa_supplicant*.conf
+wifi*.conf
+nas*.conf
+edl_config.json
+log.txt
