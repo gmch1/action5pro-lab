@@ -1,7 +1,12 @@
-# Action 5 Pro 工程模式研究笔记
+# Action5 Pro Lab
 
-这是 DJI Osmo Action 5 Pro（AC204）的可公开研究记录，覆盖 Qualcomm
-9008/EDL 备份、A/B 槽判断、FACTORY 启动验证、硬件信息采集以及网络能力验证。
+**Action5 Pro Lab**（建议仓库名：`action5pro-lab`）是专门面向
+**DJI Osmo Action 5 Pro（AC204）** 的工程化扩展项目。它从 Qualcomm
+9008/EDL 备份、A/B 槽判断和 FACTORY 启动验证开始，后续将继续实现家庭 Wi-Fi、
+NAS 自动同步、充电时本地转码，以及相机设置界面扩展。
+
+本项目只支持 Action 5 Pro，不是 DJI Action 系列或 QCS8550 设备的通用项目。
+Action 4、其他 Action 型号、Pocket 系列以及其他厂商设备均不在支持范围内。
 
 仓库的目标是记录**方法和证据链**，不是分发刷机包。仓库不包含：
 
@@ -29,6 +34,7 @@
 5. [CPU、内存、闪存等硬件信息采集](docs/05-hardware-inventory.md)
 6. [Wi-Fi 与无线 ADB 调研](docs/06-network-and-adb.md)
 7. [故障恢复清单](docs/07-recovery-runbook.md)
+8. [项目边界、架构与路线图](docs/08-project-roadmap.md)
 
 ## 仓库中的工具
 
