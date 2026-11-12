@@ -15,6 +15,10 @@ python3 action5_edl.py doctor \
 
 `doctor` 只检查依赖、loader 指纹和 USB 状态，不读写分区。
 
+用于实验的 EDL 客户端和 programmer 是仓库外部依赖。开始新的可复现实验前，
+应记录 EDL 上游 URL、准确 commit、许可证和 programmer 指纹；来源不完整的
+本地副本不得作为发布包的一部分。
+
 ## 推荐备份顺序
 
 1. `printgpt`：观察各 UFS LUN 及分区名称。

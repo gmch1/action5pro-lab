@@ -35,6 +35,7 @@ Action 4、其他 Action 型号、Pocket 系列以及其他厂商设备均不在
 6. [Wi-Fi 与无线 ADB 调研](docs/06-network-and-adb.md)
 7. [故障恢复清单](docs/07-recovery-runbook.md)
 8. [项目边界、架构与路线图](docs/08-project-roadmap.md)
+9. [第三方工具与二进制说明](THIRD_PARTY.md)
 
 ## 仓库中的工具
 
@@ -46,6 +47,8 @@ Action 4、其他 Action 型号、Pocket 系列以及其他厂商设备均不在
 - `rs`：按明确扇区范围读取。
 
 它拒绝写入、擦除、切槽和复位命令。所有输出默认进入已被 Git 忽略的本地目录。
+EDL 客户端、Firehose programmer 和 FACTORY ABL 均为仓库外部输入，详见
+`THIRD_PARTY.md`。
 
 ```bash
 python3 action5_edl.py doctor \
