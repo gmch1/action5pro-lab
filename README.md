@@ -35,7 +35,9 @@ Action 4、其他 Action 型号、Pocket 系列以及其他厂商设备均不在
 6. [Wi-Fi 与无线 ADB 调研](docs/06-network-and-adb.md)
 7. [故障恢复清单](docs/07-recovery-runbook.md)
 8. [项目边界、架构与路线图](docs/08-project-roadmap.md)
-9. [第三方工具与二进制说明](THIRD_PARTY.md)
+9. [解锁改动的字节级记录](docs/09-unlock-diff.md)
+10. [参考资料与来源说明](REFERENCES.md)
+11. [第三方工具与二进制说明](THIRD_PARTY.md)
 
 ## 仓库中的工具
 
